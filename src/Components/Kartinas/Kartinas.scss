@@ -1,0 +1,28 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.close{
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    color: red;
+    font-weight: 700;
+}
+.close:hover{
+ cursor: pointer;
+}
+
+.cardBox{
+    display: flex;
+}
